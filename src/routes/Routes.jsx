@@ -6,7 +6,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Main />,
-        errorElement: <div>404</div>
+        errorElement: <div>404</div>,
         children: [
             {
                 index: true,
@@ -15,3 +15,5 @@ const router = createBrowserRouter([
         ]
     }
 ])
+
+export default router
